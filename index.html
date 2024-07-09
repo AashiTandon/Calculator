@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    
+    <div class="outer-box">
+         <input type="text" id="input">
+         <div class="operations-line-1">
+            <input type="button" value="%" class="percentage" onclick ="input(this)">
+            <input type="button" value="CE" class="clearEntry">
+            <input type="button" value="C" class="clear">
+            <input type="button" value="÷" class="divide" onclick ="input(this)">
+        </div>
+        <div class="operations-line-1">
+            <input type="button" value="7" class="seven" onclick ="input(this)">
+            <input type="button" value="8" class="eight" onclick ="input(this)">
+            <input type="button" value="9" class="nine" onclick ="input(this)">
+            <input type="button" value="X" class="multiply" onclick ="input(this)">
+        </div>
+        <div class="operations-line-1">
+            <input type="button" value="4" class="four" onclick ="input(this)">
+            <input type="button" value="5" class="five" onclick ="input(this)">
+            <input type="button" value="6" class="six" onclick ="input(this)">
+            <input type="button" value="-" class="subtract" onclick ="input(this)">
+        </div>
+        <div class="operations-line-1">
+            <input type="button" value="1" class="one" onclick ="input(this)">
+            <input type="button" value="2" class="two" onclick ="input(this)">
+            <input type="button" value="3" class="three" onclick ="input(this)">
+            <input type="button" value="+" class="addition" onclick ="input(this)">
+        </div>
+        <div class="operations-line-1">
+            <input type="button" value="+/-" class="swap">
+            <input type="button" value="0" class="zero" onclick ="input(this)">
+            <input type="button" value="." class="decimal" onclick ="input(this)">
+            <input type="button" value="=" class="equal">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-color:lightsteelblue;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.outer-box {
+    height: 75vmin;
+    width: 70vmin;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 5vmin;
+    border-radius: 2vmin;
+}
+
+#input {
+    height: 15vmin;
+    width: 65vmin;
+    margin: 10px;
+    background-color: lightgray;
+    font-size:xx-large;
+}
+
+.operation-line-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.percentage, .seven, .four, .one, .swap{
+    height:10vmin;
+    width:15vmin;
+    margin: 2px;
+    font-size: 3vmin;
+    border-radius: 7vmin;
+}
+
+.clearEntry, .eight, .five, .two, .zero {
+    height:10vmin;
+    width:15vmin;
+    margin: 2px;
+    font-size: 3vmin;
+    border-radius: 7vmin;
+}
+
+.clear, .nine, .six, .three, .decimal {
+    height:10vmin;
+    width:15vmin;
+    margin: 2px;
+    font-size: 3vmin;
+    border-radius: 7vmin;
+}
+
+.divide, .multiply, .subtract, .addition {
+    height: 10vmin;
+    width: 15vmin;
+    margin: 2px;
+    font-size: 3vmin;
+    border-radius: 7vmin;
+}
+
+.equal {
+    height: 10vmin;
+    width:15vmin;
+    background-color: #005a9e;
+    font-size: 3vmin;
+    border-radius: 7vmin;
+}
